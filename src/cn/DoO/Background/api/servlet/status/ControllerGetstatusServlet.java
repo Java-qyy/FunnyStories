@@ -46,7 +46,7 @@ public class ControllerGetstatusServlet {
 				writer.write(jsonObject.toString());
 				return;
 			}
-			
+			 
 			if (tokenDao.queryRootByToken(token)==null) {
 				jsonObject = new JSONObject();
 				jsonObject.put("code", "-2");

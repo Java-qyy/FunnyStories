@@ -31,7 +31,7 @@ public class ControllerGetstatus extends HttpServlet{
 
 	ControllerGetstatusServlet controller=new ControllerGetstatusServlet();
 	
-	
+	 
 	@Override
 	protected void service(HttpServletRequest request , HttpServletResponse response ) throws ServletException, IOException {
 		

@@ -29,7 +29,7 @@ import cn.DoO.Background.api.servlet.status.CommentPoststatusServlet;
 public class CommentPoststatus extends HttpServlet{
 
 	CommentPoststatusServlet comment=new CommentPoststatusServlet();
-	
+	 
 	
 	@Override
 	protected void service(HttpServletRequest request , HttpServletResponse response ) throws ServletException, IOException {
